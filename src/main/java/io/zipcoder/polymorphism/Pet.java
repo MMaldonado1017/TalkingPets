@@ -1,3 +1,5 @@
+package io.zipcoder.polymorphism;
+
 public class Pet {
     private String name;
 
@@ -13,8 +15,7 @@ public class Pet {
         this.name = name;
     }
 
-    public void speak() {
-        System.out.println("Pet speaks");
+    public String speak() {
+        return "I am a generic pet.";
     }
 }
-
